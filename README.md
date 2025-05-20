@@ -2,7 +2,6 @@
 
 A professional, responsive AI-enhanced admin panel UI inspired by Intercom's customer support platform. This project is a frontend implementation that showcases a modern admin interface with AI-powered features for customer support and user management.
 
-![Intercom AI Admin Dashboard](https://i.imgur.com/example.png)
 
 ## Features
 
