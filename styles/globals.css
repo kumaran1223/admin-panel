@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-dark-800 dark:text-gray-100;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto 
+      bg-gray-100 hover:bg-primary-100 dark:bg-dark-700 dark:hover:bg-dark-600
+      text-primary-600 hover:text-primary-700 dark:text-gray-200 dark:hover:text-white
+      rounded-xl hover:rounded-2xl transition-all duration-300 ease-linear
+      cursor-pointer shadow-lg;
+  }
+
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14
+      rounded-md shadow-md text-white bg-gray-900 dark:bg-dark-900
+      text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+
+  .sidebar-hr {
+    @apply bg-gray-200 dark:bg-dark-700 border border-gray-200 dark:border-dark-700 rounded-full mx-2;
+  }
+
+  .top-navigation {
+    @apply flex flex-row items-center justify-between
+      bg-white dark:bg-dark-700 shadow-sm
+      w-full h-16 pr-4 rounded-md;
+  }
+
+  .top-navigation-icon {
+    @apply text-gray-500 dark:text-gray-300
+      mr-3 ml-4 transition duration-300 ease-in-out
+      hover:text-primary-600 dark:hover:text-primary-400
+      cursor-pointer;
+  }
+
+  .search {
+    @apply w-full py-2 pl-10 pr-4 
+      bg-gray-100 dark:bg-dark-600
+      text-gray-600 dark:text-gray-300
+      rounded-md outline-none
+      transition-all duration-300 ease-in-out
+      focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-600;
+  }
+
+  .content-container {
+    @apply flex flex-col
+      bg-gray-50 dark:bg-dark-800
+      m-0 h-full w-full
+      overflow-hidden;
+  }
+
+  .content-list {
+    @apply flex flex-col items-center
+      h-full w-full
+      mt-0 ml-0 mx-auto px-0 pb-12
+      overflow-y-scroll;
+  }
+
+  .status-badge {
+    @apply px-2 py-1 text-xs font-medium rounded-full;
+  }
+
+  .status-badge-new {
+    @apply bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200;
+  }
+
+  .status-badge-active {
+    @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+  }
+
+  .status-badge-resolved {
+    @apply bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300;
+  }
+
+  .status-badge-waiting {
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+  }
+}
