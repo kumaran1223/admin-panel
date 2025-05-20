@@ -70,11 +70,8 @@ A professional, responsive AI-enhanced admin panel UI inspired by Intercom's cus
 
 ## Deployment
 
-This project can be easily deployed to Vercel or Netlify:
+This project can be easily deployed to Netlify:
 
-### Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkumaran1223%2Fadmin-panel)
 
 ### Netlify
 
@@ -82,18 +79,4 @@ This project can be easily deployed to Vercel or Netlify:
 
 ## Live Demo
 
-Check out the live demo: [https://admin-panel-kumaran1223.vercel.app](https://admin-panel-kumaran1223.vercel.app)
-
-## Screenshots
-
-*Screenshots will be added after deployment*
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Design inspired by [Intercom](https://www.intercom.com/)
-- Icons from [React Icons](https://react-icons.github.io/react-icons/)
-- Animations powered by [Framer Motion](https://www.framer.com/motion/)
+Check out the live demo: https://fancy-piroshki-bbd2f1.netlify.app/
