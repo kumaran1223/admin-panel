@@ -82,7 +82,7 @@ This project can be easily deployed to Vercel or Netlify:
 
 ## Live Demo
 
-Check out the live demo: [https://admin-panel-demo.vercel.app](https://admin-panel-demo.vercel.app)
+Check out the live demo: [https://admin-panel-kumaran1223.vercel.app](https://admin-panel-kumaran1223.vercel.app)
 
 ## Screenshots
 
